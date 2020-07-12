@@ -2,9 +2,7 @@ package com.tests.vaibhavChess.engine.board;
 
 import com.google.common.collect.Iterables;
 import com.vaibhavChess.engine.board.Board;
-import com.vaibhavChess.engine.board.BoardUtils;
 import com.vaibhavChess.engine.board.Move;
-import com.vaibhavChess.engine.pieces.Piece;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

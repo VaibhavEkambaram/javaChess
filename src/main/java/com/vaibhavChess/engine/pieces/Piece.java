@@ -168,8 +168,8 @@ public abstract class Piece {
             }
         };
 
-        private String pieceName;
-        private int pieceValue;
+        private final String pieceName;
+        private final int pieceValue;
 
         PieceType(final String pieceName, final int pieceValue) {
 

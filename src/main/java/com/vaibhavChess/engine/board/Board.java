@@ -194,7 +194,7 @@ public class Board {
 
     public static class Builder {
 
-        Map<Integer, Piece> boardConfig;
+        final Map<Integer, Piece> boardConfig;
         Alliance nextMoveMaker;
         Pawn enPassantPawn;
 
@@ -206,22 +206,18 @@ public class Board {
          * Sets a piece to a certain spot in a builder map.
          *
          * @param piece a piece we want to set.
-         * @return the builder instance.
          */
-        public Builder setPiece(final Piece piece) {
+        public void setPiece(final Piece piece) {
             this.boardConfig.put(piece.getPiecePosition(), piece);
-            return this;
         }
 
         /**
          * Sets which player's round it is.
          *
          * @param alliance An alliance which we want to have a turn.
-         * @return the builder instance.
          */
-        public Builder setMoveMaker(final Alliance alliance) {
+        public void setMoveMaker(final Alliance alliance) {
             this.nextMoveMaker = alliance;
-            return this;
         }
 
         public Board build() {

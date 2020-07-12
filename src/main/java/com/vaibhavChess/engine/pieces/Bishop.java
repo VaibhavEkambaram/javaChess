@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import static com.vaibhavChess.engine.board.Move.AttackMove;
 import static com.vaibhavChess.engine.board.Move.MajorMove;
 
 public class Bishop extends Piece {

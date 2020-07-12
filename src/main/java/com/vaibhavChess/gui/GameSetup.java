@@ -3,7 +3,6 @@ package com.vaibhavChess.gui;
 
 import com.vaibhavChess.engine.Alliance;
 import com.vaibhavChess.engine.player.Player;
-import com.vaibhavChess.gui.Table.MoveLog;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,7 +15,7 @@ class GameSetup extends JDialog {
 
     private PlayerType whitePlayerType;
     private PlayerType blackPlayerType;
-    private JSpinner searchDepthSpinner;
+    private final JSpinner searchDepthSpinner;
 
     private static final String HUMAN_TEXT = "Human";
     private static final String COMPUTER_TEXT = "Computer";
@@ -55,19 +54,15 @@ class GameSetup extends JDialog {
         final JButton cancelButton = new JButton("Cancel");
         final JButton okButton = new JButton("OK");
 
-        okButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                whitePlayerType = whiteComputerButton.isSelected() ? PlayerType.COMPUTER : PlayerType.HUMAN;
-                blackPlayerType = blackComputerButton.isSelected() ? PlayerType.COMPUTER : PlayerType.HUMAN;
-                GameSetup.this.setVisible(false);
-            }
+        okButton.addActionListener(e -> {
+            whitePlayerType = whiteComputerButton.isSelected() ? PlayerType.COMPUTER : PlayerType.HUMAN;
+            blackPlayerType = blackComputerButton.isSelected() ? PlayerType.COMPUTER : PlayerType.HUMAN;
+            GameSetup.this.setVisible(false);
         });
 
-        cancelButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
-                System.out.println("Cancel");
-                GameSetup.this.setVisible(false);
-            }
+        cancelButton.addActionListener(e -> {
+            System.out.println("Cancel");
+            GameSetup.this.setVisible(false);
         });
 
         myPanel.add(cancelButton);

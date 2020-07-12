@@ -1,7 +1,6 @@
 package com.vaibhavChess.engine.player.ai;
 
 import com.vaibhavChess.engine.board.Board;
-import com.vaibhavChess.engine.board.BoardUtils;
 import com.vaibhavChess.engine.board.Move;
 import com.vaibhavChess.engine.player.MoveTransition;
 
@@ -12,7 +11,6 @@ public final class MiniMax implements MoveStrategy {
     private final BoardEvaluator boardEvaluator;
     private final int searchDepth;
     private long boardsEvaluated;
-    private long executionTime;
     private FreqTableRow[] freqTable;
     private int freqTableIndex;
 
@@ -65,9 +63,9 @@ public final class MiniMax implements MoveStrategy {
             moveCounter++;
         }
 
-        this.executionTime = System.currentTimeMillis() - startTime;
+        long executionTime = System.currentTimeMillis() - startTime;
         System.out.printf("%s SELECTS %s [#boards = %d time taken = %d ms, rate = %.1f\n", board.currentPlayer(),
-                bestMove, this.boardsEvaluated, this.executionTime, (1000 * ((double) this.boardsEvaluated / this.executionTime)));
+                bestMove, this.boardsEvaluated, executionTime, (1000 * ((double) this.boardsEvaluated / executionTime)));
         long total = 0;
         for (final FreqTableRow row : this.freqTable) {
             if (row != null) {
@@ -132,12 +130,10 @@ public final class MiniMax implements MoveStrategy {
 
     private static class FreqTableRow {
 
-        private final Move move;
         private final AtomicLong count;
 
         FreqTableRow(final Move move) {
             this.count = new AtomicLong();
-            this.move = move;
         }
 
         long getCount() {

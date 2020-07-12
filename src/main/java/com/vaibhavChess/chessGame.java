@@ -6,7 +6,7 @@ import com.vaibhavChess.gui.Table;
 public class chessGame {
 
     public static void main(String[] args) {
-        Board board = Board.createStandardBoard();
+        Board.createStandardBoard();
         Table.get().show();
 
     }

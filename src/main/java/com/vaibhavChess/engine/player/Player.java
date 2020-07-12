@@ -77,17 +77,17 @@ public abstract class Player {
      * @return true if is in check, false if isn't.
      */
     public boolean isInCheckMate() {
-        return this.isInCheck && !hasEscapeMoves();
+        return this.isInCheck && hasEscapeMoves();
     }
 
     protected boolean hasEscapeMoves() {
         for (final Move move : this.legalMoves) {
             final MoveTransition transition = makeMove(move);
             if (transition.getMoveStatus().isDone()) {
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
     /**
@@ -96,7 +96,7 @@ public abstract class Player {
      * @return true if is in check, false if isn't.
      */
     public boolean isInStaleMate() {
-        return !this.isInCheck && !hasEscapeMoves();
+        return !this.isInCheck && hasEscapeMoves();
     }
 
     public boolean isCastled() {

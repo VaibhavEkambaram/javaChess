@@ -23,9 +23,7 @@ public enum Alliance {
         }
 
         @Override
-        public int getOppositeDirection() {
-            return 1;
-        }
+        public int getOppositeDirection() { return 1; }
 
         @Override
         public boolean isPawnPromotionSquare(int position) {

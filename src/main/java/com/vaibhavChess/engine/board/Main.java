@@ -8,37 +8,8 @@ package com.vaibhavChess.engine.board;
 import java.util.Scanner;
 
 
-/**
- *
- * @author blaham15
- */
+
 public class Main {
-    private static Scanner reader = new Scanner(System.in);
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+    private static final Scanner reader = new Scanner(System.in);
 
-//        Board deska = new Board();
-//        deska.startGame();
-//        deska.printBoard();
-//        while(true){
-//            System.out.println("Zadejte odkud X:");
-//            int odkudX = reader.nextInt() - 1;
-//            System.out.println("Zadejte odkud Y:");
-//            int odkudY = reader.nextInt() - 1;
-//
-//            System.out.println("Zadejte kam X:");
-//            int kamX = reader.nextInt() - 1;
-//            System.out.println("Zadejte kam Y:");
-//            int kamY = reader.nextInt() - 1;
-//            deska.movePiece(odkudX,odkudY, kamX, kamY);
-//            deska.printBoard();
-//        }
-
-    }
-
-    
-    
-    
 }
