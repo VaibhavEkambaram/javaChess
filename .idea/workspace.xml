@@ -52,14 +52,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.tests.vaibhavChess.engine.board" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.vaibhavChess.engine.player.ai" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vaibhav\Documents\chessGameEx-master" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Vaibhav\Documents\chessGameEx-master" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vaibhavChess.engine.player.ai" />
     </key>
   </component>
   <component name="RunManager" selected="Application.chessGame">
@@ -128,7 +128,9 @@
       <workItem from="1583230789903" duration="270000" />
       <workItem from="1583284776764" duration="62000" />
       <workItem from="1583286703833" duration="15000" />
-      <workItem from="1594597391415" duration="700000" />
+      <workItem from="1594597391415" duration="773000" />
+      <workItem from="1594598591575" duration="44000" />
+      <workItem from="1594613071285" duration="130000" />
     </task>
     <servers />
   </component>
@@ -136,6 +138,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2663" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594613132036">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2663" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594613132036" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594597928356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -144,21 +150,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594597816008" />
-    <state width="1877" height="65" key="GridCell.Tab.0.bottom" timestamp="1594597980013">
+    <state width="1877" height="83" key="GridCell.Tab.0.bottom" timestamp="1594598635731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="65" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594597980013" />
-    <state width="1877" height="65" key="GridCell.Tab.0.center" timestamp="1594597980013">
+    <state width="1877" height="83" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594598635731" />
+    <state width="1877" height="83" key="GridCell.Tab.0.center" timestamp="1594598635731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="65" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594597980013" />
-    <state width="1877" height="65" key="GridCell.Tab.0.left" timestamp="1594597980013">
+    <state width="1877" height="83" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594598635731" />
+    <state width="1877" height="83" key="GridCell.Tab.0.left" timestamp="1594598635731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="65" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594597980013" />
-    <state width="1877" height="65" key="GridCell.Tab.0.right" timestamp="1594597980013">
+    <state width="1877" height="83" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594598635731" />
+    <state width="1877" height="83" key="GridCell.Tab.0.right" timestamp="1594598635731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="65" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594597980013" />
+    <state width="1877" height="83" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594598635731" />
   </component>
 </project>

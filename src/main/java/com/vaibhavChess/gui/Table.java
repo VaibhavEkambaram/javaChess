@@ -433,7 +433,7 @@ public class Table extends Observable {
             this.removeAll();
             if (board.getTile(this.tileId).isTileOccupied()) {
                 try {
-                    String defaultPieceImagesPath = "image/";
+                    String defaultPieceImagesPath = "assets/";
                     final BufferedImage image =
                             ImageIO.read(new File(defaultPieceImagesPath + board.getTile(this.tileId).getPiece().getPieceAlliance().toString().substring(0, 1) + board.getTile(this.tileId).getPiece().toString() + ".gif"));
                     add(new JLabel(new ImageIcon(image)));
@@ -448,7 +448,7 @@ public class Table extends Observable {
                 for (final Move move : pieceLegalMoves(board)) {
                     if (move.getDestinationCoordinate() == this.tileId) {
                         try {
-                            add(new JLabel(new ImageIcon(ImageIO.read(new File("image/green_dot.png")))));
+                            add(new JLabel(new ImageIcon(ImageIO.read(new File("assets/green_dot.png")))));
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
