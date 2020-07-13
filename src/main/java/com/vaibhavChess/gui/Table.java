@@ -14,8 +14,6 @@ import com.vaibhavChess.gui.Table.MoveLog.PlayerType;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
@@ -38,8 +36,8 @@ public class Table extends Observable {
     private Piece humanMovedPiece;
     private BoardDirection boardDirection;
     private boolean highlightLegalMoves;
-    private final Color lightTileColor = Color.decode("#ffce9e");
-    private final Color darkTileColor = Color.decode("#d18b47");
+    private final Color lightTileColor = new Color(237,205,163);
+    private final Color darkTileColor = new Color(0,48,26);
 
     private final GameHistoryPanel gameHistoryPanel;
     private final TakenPiecesPanel takenPiecesPanel;
@@ -186,7 +184,7 @@ public class Table extends Observable {
         this.chessBoard = board;
     }
 
-    public void updateComputerMove(final Move move) {
+    public void updateComputerMove() {
     }
 
     private MoveLog getMoveLog() {
@@ -224,7 +222,7 @@ public class Table extends Observable {
         public void done() {
             try {
                 final Move bestMove = get();
-                Table.get().updateComputerMove(bestMove);
+                Table.get().updateComputerMove();
                 Table.get().updateGameBoard(Table.get().getGameBoard().currentPlayer().makeMove(bestMove).getTransitionBoard());
                 Table.get().getMoveLog().addMove(bestMove);
                 Table.get().getGameHistoryPanel().redo(Table.get().getGameBoard(), Table.get().getMoveLog());
@@ -316,14 +314,6 @@ public class Table extends Observable {
 
         public void clear() {
             this.moves.clear();
-        }
-
-        public Move removeMove(int index) {
-            return this.moves.remove(index);
-        }
-
-        public boolean removeMove(final Move move) {
-            return this.moves.remove(move);
         }
 
         enum PlayerType {
@@ -454,6 +444,8 @@ public class Table extends Observable {
                         }
                     }
                 }
+
+
             }
         }
 

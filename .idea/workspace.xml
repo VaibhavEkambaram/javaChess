@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="076b6229-ffb3-48d9-877b-5329643a31d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/WR.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/WR.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$AIThinkTank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$AIThinkTank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$BoardDirection$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$BoardDirection$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$BoardDirection$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$BoardDirection$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$BoardDirection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$BoardDirection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$BoardPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$BoardPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$MoveLog$PlayerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$MoveLog$PlayerType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$MoveLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$MoveLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$TableGameAIWatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$TableGameAIWatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$TilePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$TilePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$TilePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table$TilePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/vaibhavChess/com/vaibhavChess/gui/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vaibhavChess/gui/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vaibhavChess/gui/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +65,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.tests.vaibhavChess.engine.board" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Vaibhav\Documents\chessGameEx-master" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.vaibhavChess.engine.player.ai" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.vaibhavChess.engine.player.ai" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vaibhav\Documents\chessGameEx-master" />
     </key>
   </component>
   <component name="RunManager" selected="Application.chessGame">
@@ -130,7 +143,9 @@
       <workItem from="1583286703833" duration="15000" />
       <workItem from="1594597391415" duration="773000" />
       <workItem from="1594598591575" duration="44000" />
-      <workItem from="1594613071285" duration="130000" />
+      <workItem from="1594613071285" duration="909000" />
+      <workItem from="1594614087083" duration="725000" />
+      <workItem from="1594614886810" duration="54000" />
     </task>
     <servers />
   </component>
@@ -138,10 +153,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2663" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594613132036">
+    <state x="2663" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1594614754851">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2663" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594613132036" />
+    <state x="2663" y="414" width="433" height="217" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594614754851" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594597928356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -150,21 +165,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1594597816008" />
-    <state width="1877" height="83" key="GridCell.Tab.0.bottom" timestamp="1594598635731">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1565" height="73" key="GridCell.Tab.0.bottom" timestamp="1594614940728">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1565" height="73" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594614940728" />
     <state width="1877" height="83" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594598635731" />
-    <state width="1877" height="83" key="GridCell.Tab.0.center" timestamp="1594598635731">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1565" height="73" key="GridCell.Tab.0.center" timestamp="1594614940728">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1565" height="73" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594614940728" />
     <state width="1877" height="83" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594598635731" />
-    <state width="1877" height="83" key="GridCell.Tab.0.left" timestamp="1594598635731">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1565" height="73" key="GridCell.Tab.0.left" timestamp="1594614940728">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1565" height="73" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594614940728" />
     <state width="1877" height="83" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594598635731" />
-    <state width="1877" height="83" key="GridCell.Tab.0.right" timestamp="1594598635731">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1565" height="73" key="GridCell.Tab.0.right" timestamp="1594614940728">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1565" height="73" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1594614940728" />
     <state width="1877" height="83" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594598635731" />
   </component>
 </project>
